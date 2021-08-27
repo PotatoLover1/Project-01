@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Reimbursement page</title>
+</head>
+<body>
+	<h1>Expense Reimbursement System</h1>
+	
+	<div id= 'main'>
+	
+	<div id = 'reimbursement-container'>
+	
+	</div>
+	
+	<button id = 'form-button'>Create New Request</button>
+	<div id = 'reimbursement-form'>
+		<form id = 'request-form'>
+		<label for ='type'>Type:</label>
+		<select id ='type' >
+			<option value='1'>LODGING</option>
+			<option value='2'>TRAVEL</option>
+			<option value='3'>FOOD</option>
+			<option value='4'>OTHER</option>
+		</select><br/>
+		<label for = 'amount'>Amount: </label>
+		<input id = 'amount' type = 'number'><br/>
+		<label for ='description'>Description</label>
+		<input id = 'description' type = 'text'><br/>
+		<input type='submit' value = 'Submit'/>
+		</form>
+	</div>
+	
+	</div>
+	
+	
+	<script src='../js/logout.js'></script>
+	<script src='../js/reimbursement.js'></script>
+</body>
+</html>
